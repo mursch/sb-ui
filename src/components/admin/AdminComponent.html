@@ -1,0 +1,12 @@
+<div class="container">
+  <div class="col-md-9" role="main">
+    <router-outlet></router-outlet>
+  </div>
+  <div class="col-md-3" role="complementary">
+    <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix">
+      <ul class="nav bs-docs-sidenav">
+        <li><a [routerLink]="['Admin', 'UserAdmin']">Benutzer</a><li>
+      </ul>
+    </nav>
+  </div>
+</div>
