@@ -71,7 +71,8 @@ export const DEV_NPM_DEPENDENCIES: InjectableDependency[] = normalizeDependencie
   { src: 'angular2/bundles/http.js', inject: 'libs', dest: JS_DEST },
   { src: 'jquery/dist/jquery.min.js', inject: 'libs', dest: JS_DEST },
   { src: 'bootstrap/dist/js/bootstrap.min.js', inject: 'libs', dest: JS_DEST },
-  { src: 'bootstrap/dist/css/bootstrap.css', inject: true, dest: CSS_DEST }
+  { src: 'bootstrap/dist/css/bootstrap.css', inject: true, dest: CSS_DEST },
+  { src: 'bootstrap-material-design/dist/bootstrap-material-design.min.css', inject: true, dest: CSS_DEST }
 ]);
 
 export const PROD_NPM_DEPENDENCIES: InjectableDependency[] = normalizeDependencies([

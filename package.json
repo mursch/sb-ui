@@ -1,9 +1,9 @@
 {
-  "name": "angular2-seed",
-  "version": "0.0.0",
-  "description": "Seed for Angular 2 apps",
+  "name": "sb-ui",
+  "version": "0.0.1",
+  "description": "sb-ui",
   "repository": {
-    "url": "https://github.com/mgechev/angular2-seed"
+    "url": "https://github.com/mursch/sb-ui"
   },
   "scripts": {
     "build.dev": "gulp build.dev",
@@ -29,7 +29,7 @@
     "webdriver-start": "webdriver-manager start",
     "webdriver-update": "webdriver-manager update"
   },
-  "author": "Minko Gechev <mgechev>",
+  "author": "Markus Urschitz <mursch>",
   "license": "MIT",
   "devDependencies": {
     "async": "^1.4.2",
@@ -90,9 +90,10 @@
   },
   "dependencies": {
     "angular2": "2.0.0-beta.6",
-    "angular2-jwt": "^0.1.6",
+    "angular2-jwt": "0.1.6",
     "jquery": "2.2.1",
-    "bootstrap": "^3.3.5",
+    "bootstrap": "3.3.5",
+    "bootstrap-material-design": "4.0.1",
     "es6-module-loader": "^0.17.8",
     "es6-shim": "^0.33.3",
     "reflect-metadata": "0.1.2",
